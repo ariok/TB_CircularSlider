@@ -1,7 +1,7 @@
 TB_CircularSlider
 =================
 
-This is the code for the tutorial "How to create a custom control il iOS" from http://www.thinkandbuild.it.
+This is the code for the tutorial "How to create a custom control in iOS" from http://www.thinkandbuild.it.
 
 In this tutorial I show how to create a custom control as subclass of UIControl and I draw the 99% of the component using Core Graphics. 
 
