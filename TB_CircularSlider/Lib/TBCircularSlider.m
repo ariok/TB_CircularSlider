@@ -16,8 +16,7 @@
 
 /** Parameters **/
 #define TB_SAFEAREA_PADDING 60
-#define TB_BACKGROUND_WIDTH 60
-#define TB_LINE_WIDTH 40
+
 
 #pragma mark - Private -
 
@@ -47,7 +46,7 @@
         
         
         //Define the Font
-        UIFont *font = [UIFont fontWithName:@"Futura-CondensedExtraBold" size:65];
+        UIFont *font = [UIFont fontWithName:TB_FONTFAMILY size:TB_FONTSIZE];
         //Calculate font size needed to display 3 numbers
         NSString *str = @"000";
         CGSize fontSize = [str sizeWithFont:font];
@@ -133,7 +132,7 @@
     
     
     /** Create THE MASK Image **/
-    UIGraphicsBeginImageContext(CGSizeMake(320,320));
+    UIGraphicsBeginImageContext(CGSizeMake(TB_SLIDER_SIZE,TB_SLIDER_SIZE));
     CGContextRef imageCtx = UIGraphicsGetCurrentContext();
     
     CGContextAddArc(imageCtx, self.frame.size.width/2  , self.frame.size.height/2, radius, 0, ToRad(self.angle), 0);
