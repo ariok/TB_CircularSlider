@@ -1,5 +1,6 @@
 TB_CircularSlider
 =================
+You can find a Swift version of this tutorial ![here](http://www.thinkandbuild.it/building-a-custom-and-designabl-control-in-swift/)
 
 This is the code for the tutorial "How to create a custom control in iOS" from http://www.thinkandbuild.it.
 
